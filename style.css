@@ -197,3 +197,16 @@ footer p{
 }
  
 /* all css section end*/
+
+/* media queries*/
+/* mobile device*/
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+    }
+    .container, .info,{
+        
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
